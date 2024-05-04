@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="estilos.css" rel="stylesheet" >
+</head>
+<body>
+
+    <style>
+        h4 {
+            color: red;
+            font-size: 20px;
+        }
+    </style>
+    <!--Estilos en linea o inline directamente sobre las etiquetas html-->
+    <h3 style="color:blue; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;border-bottom: 1px solid red;">
+        Con estilo inline
+    </h3>
+    <h3>Sin estilo</h3>
+    <h4>Estilo aplicado con etiqueta style</h4>
+    <h4>Estilo aplicado con etiqueta</h4>
+    <span>Afectado desde un archivo css externo</span>
+
+    <span id="texto">Texto afectado por selector por ID</span>
+    <p data-azul>
+        Este es mi parrafo y quiero <span id="texto">resaltar</span> el texto.
+    </p>
+    <a href="https://www.google.com">Enlace a google</a>
+    <a href="https://www.microsoft.com" class="enlace fuenteRoja fuenteAzul">Microsoft</a>
+
+    <div class="fuenteAzul">Aplicado usando clases</div>
+    <div class="fuenteRoja">Aplicado usando clases</div>
+    <p class="parrafoVerde">Parrafo con estilo de clase</p>
+    <div class="parrafoVerde">Aqui no aplico el verde</div>
+</body>
+</html>

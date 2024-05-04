@@ -1,0 +1,56 @@
+
+/* Se aplica a todos los span colocando el nombre de la etiqueta */
+span {
+    background-color: bisque;
+    color:chartreuse;
+    font-size: 16px;
+}
+
+/* Selector por ID se coloca # seguido por el id */
+
+#texto{
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* Selector * aplica a todos los elementos */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Selector por atributos */
+[data-azul]{
+    color: blue;
+}
+
+[href="https://www.google.com"] {
+    font-size:20px;
+}
+
+/*Selector por clase no se pueden usar espacios en los nombres */
+.fuenteAzul{
+    color: blue;
+}
+
+.fuenteRoja{
+    color: red;
+}
+/* Selector dirigido, usando el nombre del elemento y de la clase */
+p.parrafoVerde {
+  color: green;
+}
+
+/* Selector con pseudo propiedades */
+.enlace:active{
+    font-size: 30px;    
+}
+
+.enlace:hover{
+    font-size: 30px;    
+}
+
+/*Los estilos se heredan por toda la jerarquia de etiquetas*/
+body {
+    font-size: 18px;
+    background-color: greenyellow;
+}

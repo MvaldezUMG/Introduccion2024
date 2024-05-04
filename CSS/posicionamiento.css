@@ -1,0 +1,13 @@
+.display-inline{
+    display: inline;
+}
+
+.display-block{
+    display: block;
+}
+
+.fixed {
+    position: sticky;
+    border: 2px solid red;
+    top: 20px;
+}

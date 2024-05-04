@@ -1,0 +1,24 @@
+.table{
+  width: 100%;   
+  border-collapse: collapse;
+  font-family: sans-serif;
+  border-bottom: 2px solid;
+}
+
+/*Accedemos de forma jerarquica hasta los elementos a manipular */
+.table > thead > tr > th {
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+} 
+
+.table > tbody > tr > td {
+    text-align: center;
+    padding: 5px;
+}
+
+.table > tbody > tr:hover {
+    background-color: gainsboro;
+    color: white;
+}

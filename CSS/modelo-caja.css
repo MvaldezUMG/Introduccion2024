@@ -1,0 +1,27 @@
+html{
+    font-size: 16px;
+}
+
+
+body{
+    padding-top: 10px;
+}
+
+.padding {
+    /* Modificar todos los lados */
+    /* padding: 5px; */
+    padding: 10px 5px 10px 5px;
+}
+
+.border {
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.margin{
+    margin: 5px 10px 5px 10px;
+}
+
+.fondoImagen{
+    background-image: url("https://images.pexels.com/photos/1287142/pexels-photo-1287142.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
